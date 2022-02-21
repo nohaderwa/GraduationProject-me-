@@ -1,0 +1,41 @@
+/* nav */
+.main{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  .circle{
+    width: 112px;
+    height: 96px;
+    margin-bottom: -34px;
+    cursor: pointer;
+  }
+  .fa{
+    /* margin: 0px -9px 0px 141px;*/
+    margin-left: 100px; 
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .picDiv{
+    background-color: rgb(229, 239, 245);
+    width: 80%;
+    height:97vh ;
+    margin: 10px;
+    float: right;
+    border-radius: 30px;
+    
+  }
+  .pic{
+    width: 85%;
+    opacity: 1;
+    position: relative;
+    left: 55px;
+    top:20px;
+    height:min-content;
+    align-items: center;
+    
+  }
+  .variable{
+ 
+    margin-left: 30px;
+  }

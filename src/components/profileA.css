@@ -1,0 +1,124 @@
+.a_profileA{
+  margin-left: 15px; 
+   padding: 20px;
+  width: 100%;
+
+}
+.a_container{
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 30px;
+}
+.a_admin h1{
+  font-family: sans-serif;
+  color: #4378E3;
+  font-size: 47px;
+  text-align: center;
+  font-weight:bolder; 
+}
+
+.a_container input{
+  border-radius: 15px;
+  border: none;
+  background-color: #4378E326;
+  font-size: 21px;
+  padding: 10px;
+  /* margin: 2px 0px 2px 0px;     */
+  width: 90%;
+}
+.a_where{
+  display: flex;
+  flex-direction: row;  
+  text-align: center;
+  justify-content:space-between;
+  margin-left:16px ;
+  width: 94%;
+}
+.a_where #country{
+  margin-right: 15px;
+}
+.a_Profession{  
+  display: flex;
+  flex-direction: row;  
+  text-align: center;
+  justify-content:space-between;
+  width: 94%;
+  margin-left:16px ;
+
+}
+.a_Profession #prof{
+  margin-right: 15px;
+
+}
+.a_Profession #lang, .a_Profession #prof{
+  background-color: #4378E326;
+  color: #787777;
+  text-align: left;
+  border-radius: 15px;
+  border: none;
+  height: 45px;
+  width: 94%;
+  padding: 5px;
+  font-size: large;
+}
+.a_Profession option{
+  background-color: #4378E326;
+  font-family: sans-serif;
+  color: #00000081;
+  font-size: 18px;
+}
+.a_container option{
+  background-color: #85aeff00;
+  font-family: sans-serif;
+  color: #00000077;
+  font-size: 18px;  
+}
+.a_container #p{
+  text-align: left;
+  margin-left: 110px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.a_upload{
+  background-color: #4378E326;
+  border-radius: 15px;
+  border: none;
+  width: 94%;
+  margin-left:16px ;
+}
+input[type='file']{
+ background-color: #00000000;
+  font-size: small;
+  width: 80px;
+}
+#a_p{
+  font-size: large;
+  font-weight: bolder;
+  margin-bottom: 7px;
+}
+.a_license{
+  display: flex;
+  flex-direction: row;  
+  text-align: center;
+  justify-content:space-between;
+  width: 94%;
+  margin-left:16px ;
+}
+.a_license #licID{
+  margin-right: 15px; 
+}
+
+.a_start{
+  background-color: #4378E3;
+  color: #FFFFFF;
+  border-radius: 15px;
+  border: none;
+  font-size: 24px;
+  text-align: center;
+  width: 94%;
+  padding: 15px;
+  cursor: pointer; 
+  margin-top: 20px;  
+}

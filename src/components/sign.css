@@ -1,0 +1,81 @@
+.signup{
+    margin-left: 15px;
+    padding: 25px;
+    width: 100%;
+  }
+.container{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+h1{
+    font-family: sans-serif;
+    color: #4378E3;
+    font-size: 47px;
+    text-align: center;
+    font-weight:bolder;
+}
+.name{
+    display: flex;
+    flex-direction: row;  
+    text-align: center;
+    justify-content:space-around;
+    margin-left:2px ;
+}
+.name input{
+    width: 82%;
+}
+input{
+    border-radius: 15px;
+    border: none;
+    background-color: #4378E326;
+    font-size: 21px;
+    padding: 15px;
+    /* margin: 2px 0px 2px 0px;    */
+    width: 90%;
+}
+.password #togglePassword, .password #toggleCPassword{
+    color: #4378E3;
+    font-size: 21px;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    margin-top: 20px;
+}
+.checkbox{
+    font-size: 25px;
+    color: #2E2E2E;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+.check{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #707070;
+    opacity: 1;
+    margin-right: 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.signupbtn{
+    border-radius: 15px;
+    width: 98%;
+    background-color: #4378E3;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+    cursor: pointer;
+}
+.errorMsg{
+    color: #707070;
+    font-size: small;
+    
+}

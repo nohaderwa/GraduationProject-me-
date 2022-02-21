@@ -1,0 +1,67 @@
+/*register*/
+.registerDiv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 30px;
+  }
+  .text{
+    position: relative;
+    left: 60px;
+  }
+  h2 {
+    color: #4378e3;
+    font-family: sans-serif;
+    /* width: 372px;
+    height: 84px; */
+    font-size: 60px;
+    text-align:center;
+  }
+  h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: #00000099;
+    font-size: 20px;
+  }
+  .squareDiv{
+    display: flex;
+    flex-direction: row;
+  }
+  .square {
+    height: 209px;
+    width: 233px;
+    background-color: rgb(255, 255, 255);
+   text-align: center;
+   border-radius: 21px;
+   font-family: sans-serif;
+   color: #4378e3;
+   border: 1px solid #707070;
+  font-size: 37px;
+  margin: 73px;
+  margin-top: 13px;
+  margin-left: 100px;
+  margin-right: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .login{
+    position: relative;
+    left: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #787777;
+    font-size: 22px;
+  }
+  a{
+    text-decoration-line: none;
+    color: #4378e3;
+  }
+  p{
+    margin: 0px 33px 0px 33px;
+  }
+  .square:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(23, 23, 182 ,0.2), 0 6px 20px 0 rgb(31, 31, 177, 0.6);
+  }
